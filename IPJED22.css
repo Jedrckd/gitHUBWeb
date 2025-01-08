@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-image: url('wallpaperflare.com_wallpaper.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1 {
+    text-align: center; color: #ffffff; font-family: arial;
+}
+h2 {
+    text-align: center; color: #fbfdfc; font-family: arial;
+}
+h3 {
+    text-align: center; color: #ebebeb; font-family: arial;
+}
+p {
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; font-family: calibri
+    
+}
+.navbar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+.navbar a:hover{
+    color:#57a061;
+}
+.navbar li{
+    float: left; list-style-type: none;
+}
+.navdiv{
+    background-color:#317951; display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+     font-size: 35px; font-weight: bold; color: rgb(252, 252, 252);
+}
+.logo a:hover{
+    font-size: 35px; font-weight: bold; color: #57a061;
+}
+button{
+background-color: #317951; color:white; margin-left: 10px; border-radius: 10px; padding: 5px; font-size: 14px; font-weight: bold;
+}
+button a{
+    color: #ffffff; text-decoration: none; 
+}
+section a{
+    text-decoration: none;
+}
+
+@media (max-width:1100px) {
+    .navbar,
+    .navbar a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar,
+    .navbar a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:879px) {
+    .navbar,
+    .navbar a{
+        font-size: 20px;
+    }
+}
+@media (max-width:745px) {
+    .navbar,
+    .navbar a{
+        font-size: 15px;
+    }
+}
+@media (max-width:610px) {
+    .navbar,
+    .navbar a{
+        font-size: 10px;
+    }
+}
+@media (max-width:475px) {
+    .navbar,
+    .navbar a{
+        font-size: 9px;
+    }
+}
+@media (max-width:450px) {
+    .navbar,
+    .navbar a{
+        font-size: 5px;
+    }
+}
